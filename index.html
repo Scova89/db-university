@@ -14,6 +14,13 @@
         <li>FROM `students`</li>
         <li>GROUP BY YEAR (`enrolment_date`);</li>
     </ul>
+
+    <h3>Contare gli insegnanti che hanno l'ufficio nello stesso edificio</h3>
+    <ul>
+        <li>SELECT COUNT(`id`), `office_address`</li>
+        <li>FROM `teachers` </li>
+        <li>GROUP BY `office_address`;</li>
+    </ul>
         
         
 
